@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * interpret_line - intrepets the line
+ * read_line - intrepets the line
  * @line: string containnig the line
  * @line_number:number of line
  * @stack: pointer to the stack head
@@ -43,7 +43,7 @@ void read_line(char *line, unsigned int line_number, stack_t **stack)
 	}
 }
 /**
- * check_number_string - checks if string is a number
+ * is_string_number - checks if string is a number
  * @string: string
  * Return: 1 or 0
  */
