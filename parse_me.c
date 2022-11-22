@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * getopfunc - execute the fuction
+ * parse_me - execute the fuction
  * @function_name: name of the function
  * @line_number: line number of the instruction
  * @stack: ponter to pinter to the stack head
